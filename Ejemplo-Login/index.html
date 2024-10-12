@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"href="stlye.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<body>
+    <header>
+        <h1>El primer Login</h1>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+    </header>
+    <main>
+        <div id="container">
+        <form id="loginform"onsubmit="return chequelogin(loing)">
+            <input type="email"name="email"id="email"placeholeder="Ingresa tu email">
+            <input type="password"name="password"id="password"placeholeder="Ingresa tu contraseña">
+            <input type="submait"value="Ingresar">
+        </form>
+        <p id="LoginMensaje"></p>
+        </div>
+        <button type="submit">Entrar</button>
+    </main>
+    <footer><p>Todos los derechos son mios</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
